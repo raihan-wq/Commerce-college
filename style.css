@@ -200,21 +200,38 @@ transform:skew(-5deg,-5deg) rotate(5deg);
 
 		
 @media screen and (max-width:500px){
-.headline{flex-direction:column; align-items:center;}
+.headline{flex-direction:column; align-items:center; font-size:14px;}
 .headline > *{margin-bottom:5px;}
 .headline .clg-center{visibility:hidden;}
 .logo_main{margin:0px !important; padding:10px;}
+.logo_main_text h1{font-size:22px;}
+.logo_main_text h2{font-size:20px;}
+.nav_sub{flex-direction:column;justify-content:flex-start;align-items:flex-start; background:white; padding:0px;}
+.nav_sub a{color:#2D2F2E; font-size:14px;border-bottom:1px solid #979A9F; width:100%;text-align:left; }
+.nav_sub a span{}
+.nav_sub a:hover{background:#808080;color:white;}
+.nav_button{font-size:14px; padding:10px 20px;}
+
 .online{flex-direction:column;}
-.online_sub{margin-bottom:10px !important;}
-.online_sub img{max-width:200px !important;}
+.online_sub{margin-bottom:30px !important;}
+.online_sub img{max-width:100px !important;transition:1s;}
+.online_sub img:hover{transform:scale(1.2); margin-bottom:10px;}
+.online_sub  h2{font-size:14px;}
 .img_gallary{margin-right:0px !important; max-width:70% !important;}
 .gallary_one{float:none;}
 .gallary_one img{background-size:cover; max-width:300px !important;}
+.gallary_one p{font-size:20px;}
+.gallary_one button{padding:15px 15px;}
 .gallary_two{float:none; margin-top:20px !important; display:flex; flex-direction:column; align-content:center;}
 .notice{float:none !important; width:90%;}
-.notice_sub p{margin-left:10px;}
-.latest{padding:0px 5px;}
-.latest a{padding:0px; margin-left:10px;}
+.notice button{font-size:14px; padding-right:15px;}
+.notice_sub{margin:30px 0px;}
+.notice_sub button{padding:15px 12px;}
+.notice_sub p{margin-left:15px; font-size:15px;}
+.notice_sub a{font-size:14px;}
+.notice h1{font-size:18px;}
+.latest{padding:10px 5px;}
+.latest a{padding:0px; margin-left:10px; font-size:16px;}
 .about_us{grid-template-columns:auto !important; justify-content:center;}
 .about_us > *{text-align:center; margin-bottom:20px;}
 .power{grid-template-columns:auto; justify-content:center;}
@@ -222,6 +239,7 @@ transform:skew(-5deg,-5deg) rotate(5deg);
 .power > *{text-align:center; margin-bottom:20px;}
 .notice .see{}
 .e_resource{float:none; }
+.e_resource span{font-size:15px;}
 
 .footer{grid-template-columns:auto; justify-content:center;}
 .footer > *{margin-bottom:10px;}
